@@ -11,6 +11,6 @@ vi.mock("./synapse/authProvider", () => ({
 describe("App", () => {
   it("renders", async () => {
     render(<App />);
-    await screen.findAllByText("Welcome to Synapse-admin");
+    await screen.findAllByText("Welcome to Synapse-admin at HGRS");
   });
 });

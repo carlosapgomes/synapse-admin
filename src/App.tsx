@@ -11,6 +11,7 @@ import frenchMessages from "./i18n/fr";
 import italianMessages from "./i18n/it";
 import russianMessages from "./i18n/ru";
 import chineseMessages from "./i18n/zh";
+import portugueseBrazilianMessages from "./i18n/pt-BR";
 import LoginPage from "./pages/LoginPage";
 import destinations from "./resources/destinations";
 import registrationToken from "./resources/registration_tokens";
@@ -31,6 +32,7 @@ const messages = {
   it: italianMessages,
   ru: russianMessages,
   zh: chineseMessages,
+  "pt-BR": portugueseBrazilianMessages,
 };
 const i18nProvider = polyglotI18nProvider(
   locale => (messages[locale] ? merge({}, messages.en, messages[locale]) : messages.en),
@@ -43,6 +45,7 @@ const i18nProvider = polyglotI18nProvider(
     { locale: "fa", name: "Persian(فارسی)" },
     { locale: "ru", name: "Russian(Русский)" },
     { locale: "zh", name: "简体中文" },
+    { locale: "pt-BR", name: "Português (Brasil)" },
   ]
 );
 

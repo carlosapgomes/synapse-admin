@@ -35,7 +35,7 @@ const FormBox = styled(Box)(({ theme }) => ({
   minHeight: "calc(100vh - 1rem)",
   alignItems: "center",
   justifyContent: "flex-start",
-  background: "url(./images/floating-cogs.svg)",
+  background: "url(./images/hgrs-background-bw.jpg)",
   backgroundColor: "#f9f9f9",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
